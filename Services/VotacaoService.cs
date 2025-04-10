@@ -9,7 +9,7 @@ public class VotacaoService
     private readonly List<Candidato> _candidatos = new()
     {
         new Candidato { Numero = 10, Nome = "Jorge Vasconcelos", Partido = "PT" },
-        new Candidato { Numero = 20, Nome = "Fábio Lourenço", Partido = "PL" }
+        new Candidato { Numero = 20, Nome = "Julia Lourenço", Partido = "PL" }
     };
 
     private string _ultimoHash = string.Empty;
